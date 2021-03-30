@@ -11,7 +11,24 @@ a project of Intelligent question answering based on knowledge graph
     - 利用贝叶斯训练模型
   - 答案生成：针对问题设计的cypher模板，根据问题类别对应到答案
  
- 
+目前实际：
+- 问题类型
+![image](https://user-images.githubusercontent.com/45895439/113000566-865e7980-91a2-11eb-8c83-3fc4e69ce6fe.png)
+
+- cypher查询语句
+![image](https://user-images.githubusercontent.com/45895439/113001056-0258c180-91a3-11eb-8598-f37a27f3adcd.png)
+
+- 测试样例
+![image](https://user-images.githubusercontent.com/45895439/113001105-0f75b080-91a3-11eb-854d-a4ec79eda528.png)
+
+- 答案生成
+![image](https://user-images.githubusercontent.com/45895439/113000667-9fffc100-91a2-11eb-8261-8ac464f3c819.png)
+![image](https://user-images.githubusercontent.com/45895439/113000736-af7f0a00-91a2-11eb-893f-0dc81b15ef8e.png)
+![image](https://user-images.githubusercontent.com/45895439/113000791-bd348f80-91a2-11eb-9e72-870e48ad5341.png)
+![image](https://user-images.githubusercontent.com/45895439/113000870-d0dff600-91a2-11eb-8052-dd70b1065bd5.png)
+![image](https://user-images.githubusercontent.com/45895439/113000907-d9d0c780-91a2-11eb-84bb-2dd330971b42.png)
+
+
 改进思想：
 - 如何让问题与属性直接对应，实体与graph中的实体对应，但对于涉及关系类问题而言，需要思考
 - 学习预训练，机器学习等方法
